@@ -4,16 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Lucas456th">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/website-logo.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Andrew P. Lucas</h3>
+  <h3 align="center">Headers and Footers Display Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Hi! Welcome to my page!
+"Hello there! I'm Andrew. Welcome to my page! Feel free to check out the description of my website below!"
 </div>
 
 <br />
@@ -57,26 +57,21 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
+### What is the project?
+- The purpose of this project is to design and develop a website showcasing distinct header and footer designs using pure HTML and CSS. The project aims to demonstrate proficiency in front-end web development skills, including layout design, styling, and animation techniques.
+### Whats the purpose?
+- The purpose of this project is to serve as a practical demonstration of front-end web development skills, specifically focusing on the design and implementation of headers and footers using HTML and CSS. T
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website Page Website
+- Headers and Footers Display Website designed using CSS & HTML
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
