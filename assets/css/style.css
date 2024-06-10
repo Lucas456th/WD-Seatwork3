@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Brigade Font';
+    src: url(../font/brigade-font.ttf);
+  }
+body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/tokyo-drift.jpg"); /* Replace './assets/img/tokyo-drift.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    margin: 20px;
+}
+
+.button a {
+    color: rgb(0, 0, 0);
+    font-family: 'Brigade Font';
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 5px 0 #915100; /* Adjust the box shadow as needed */
+    -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 5px 0 #915100; /* Adjust the box shadow as needed */
+    box-shadow: inset 0 1px 0 #FFE5C4, 0 5px 0 #ffffff; /* Adjust the box shadow as needed */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button a:active {
+    top: 10px;
+    background-color: #ff0000;
+    -webkit-box-shadow: inset 0 1px 0 #ff0000, inset 0 -3px 0 #ff0000;
+    -moz-box-shadow: inset 0 1px 0 #ff0000, inset 0 -3pxpx 0 #ff0000;
+    box-shadow: inset 0 1px 0 #ff0000, inset 0 -3px 0 #ff0000;
+}
+
+.button:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    position: absolute;
+    bottom: -15px;
+    left: -4px;
+    z-index: -1;
+    background-color: #2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}

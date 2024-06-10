@@ -60,7 +60,7 @@
 ### What is the project?
 - The purpose of this project is to design and develop a website showcasing distinct header and footer designs using pure HTML and CSS. The project aims to demonstrate proficiency in front-end web development skills, including layout design, styling, and animation techniques.
 ### Whats the purpose?
-- The purpose of this project is to serve as a practical demonstration of front-end web development skills, specifically focusing on the design and implementation of headers and footers using HTML and CSS. T
+- The purpose of this project is to serve as a practical demonstration of front-end web development skills, specifically focusing on the design and implementation of headers and footers using HTML and CSS. 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
