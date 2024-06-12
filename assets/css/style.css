@@ -1,79 +1,197 @@
+/* Base styles */
 @font-face {
-    font-family: 'Brigade Font';
-    src: url(../font/brigade-font.ttf);
-  }
-body {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url("../img/tokyo-drift.jpg"); /* Replace './assets/img/tokyo-drift.jpg' with the path to your background image */
-    background-size: cover;
-    background-position: center;
-  }
-
-  .logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 100px; /* Adjust the width as needed */
-    height: auto; 
+  font-family: 'Super Font';
+  src: url(../font/super-font.ttf);
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@font-face {
+  font-family: 'Brigade Font';
+  src: url(../font/brigade-font.ttf);
+}
+
+@font-face {
+  font-family: 'Race Font';
+  src: url(../font/race-bold-font.ttf);
+}
+
+@font-face {
+  font-family: 'Line Font';
+  src: url(../font/line-font.ttf);
+}
+
+/* Apply font to the strong element inside description */
+.description strong {
+  font-family: 'Brigade Font';
+  font-size: 28px; /* Adjust font size as needed */
+  text-shadow: 0.5px 0.5px #000000;
+  color: #; /* Adjust color if needed */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/fast-furious.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 90px;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  font-family: "Race Font";
+  text-shadow: 3px 3px  #000000;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px; /* Space between description and buttons */
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+  border-radius: 10px; /* Rounded corners for better aesthetics */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; /* Space between buttons */
+  flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
 }
 
 .button {
-    position: relative;
-    margin: 20px;
+  position: relative;
 }
 
 .button a {
-    color: rgb(0, 0, 0);
-    font-family: 'Brigade Font';
-    font-weight: bold;
-    font-size: 24px; /* Adjust the font size as needed */
-    text-align: center;
-    text-decoration: none;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px 20px; /* Adjust the padding as needed */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    text-shadow: 0px 1px 0px #000;
-    filter: dropshadow(color=#000, offx=0px, offy=1px);
-    -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 5px 0 #915100; /* Adjust the box shadow as needed */
-    -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 5px 0 #915100; /* Adjust the box shadow as needed */
-    box-shadow: inset 0 1px 0 #FFE5C4, 0 5px 0 #ffffff; /* Adjust the box shadow as needed */
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Brigade Font';
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2200ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  text-shadow: 0px 1px 0px #000000;
+  box-shadow: inset 0 1px 0 #2200ff, 0 5px 0 #;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
 
 .button a:active {
-    top: 10px;
-    background-color: #ff0000;
-    -webkit-box-shadow: inset 0 1px 0 #ff0000, inset 0 -3px 0 #ff0000;
-    -moz-box-shadow: inset 0 1px 0 #ff0000, inset 0 -3pxpx 0 #ff0000;
-    box-shadow: inset 0 1px 0 #ff0000, inset 0 -3px 0 #ff0000;
+  top: 2px;
+  background-color: #ff0000;
+  box-shadow: inset 0 1px 0 #ff0000, inset 0 -3px 0 #ff0000;
 }
 
-.button:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    padding: 4px;
-    position: absolute;
-    bottom: -15px;
-    left: -4px;
-    z-index: -1;
-    background-color: #2B1800;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+.button::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .main-logo {
+    width: 60px;
+  }
+
+  .button a {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+
+  .button {
+    margin: 8px;
+  }
+
+  .button-container {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-logo {
+    width: 40px;
+  }
+
+  .button a {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button {
+    margin: 6px;
+  }
+}
+
+/* Updated logo-container */
+.logo-container {
+  position: fixed;
+  top: 20px; /* Changed from bottom to top */
+  right: 10px; /* Keeping it on the right */
+}
+
+.wheels-logo {
+  width: 50px;
+  height: auto;
+}
+
+.sub-logo {
+  position: absolute;
+  width: 0;
+  height: auto;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.sub-logo1 {
+  top: 60px; /* Changed from bottom to top */
+  right: 0;
+}
+
+.sub-logo2 {
+  top: 100px; /* Changed from bottom to top */
+  right: 0;
+}
+
+.logo-container:hover .sub-logo {
+  width: 30px;
+  opacity: 1;
+}
+
+.wheels-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.5s ease;
+}
+
+.wheels-icon:hover {
+  transform: rotate(360deg);
 }
