@@ -1,0 +1,700 @@
+
+@font-face {
+    font-family: 'Super Font';
+    src: url(../font/super-font.ttf);
+  }
+
+  @font-face {
+    font-family: 'Brigade Font';
+    src: url(../font/brigade-font.ttf);
+  }
+
+  @font-face {
+    font-family: 'Race Font';
+    src: url(../font/race-font.ttf);
+  }
+
+  @font-face {
+    font-family: 'Line Font';
+    src: url(../font/line-font.ttf);
+  }
+  /* Example of Responsive CSS */
+@media (max-width: 768px) {
+  body {
+      padding: 5px;
+  }
+
+  .header-1, .header-2, .section-3, .section-4, .section-5,
+  .header-6, .header-7, .section-8, .section-9, .section-10 {
+      padding: 0.5rem;
+  }
+
+  .header-1 .navi a, .header-2 .navi a, .section-3 .navi a,
+  .section-4 .navi a, .section-5 .navi a, .header-6 .naviA a,
+  .header-7 .naviB a, .section-8 .naviC a, .section-9 .naviD a,
+  .section-10 .naviE a {
+      font-size: 12px;
+  }
+
+  .header-content img, .header-2 .header-content img,
+  .section-3 .header-content .img, .section-4 .header-content .img,
+  .section-8 .header-content .img, .section-9 .header-content .img,
+  .section-10 .header-content .img {
+      width: 50px;
+  }
+}
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    margin: 15px;
+    padding: 10px;
+    background-color:#939393 ;
+    background-size: cover;
+}
+
+.home{
+    font-family: 'Super Font';
+    text-shadow: 4px 4px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #2200ff;
+}
+.home-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.home-logo {
+    width: 60px; /* Adjust width as needed */
+    height: auto;
+    display: block;
+}
+
+
+/* HEADER1*/
+.header-text1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+.header-1 {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background-color: #daed00;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.header-1 .header-content .logo {
+  width: 80px;
+  height: auto;
+}
+
+.header-1 .navi a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+  font-family: 'Line Font';
+  font-size: 9px;
+}
+
+.header-text h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+} 
+
+.header-text p {
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+/* HEADER2*/
+.header-text2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+.header-text h2 {
+  font-size: 28px;
+  margin-bottom: 2px;
+  color: #333; /* Darker color for header text */
+}
+
+.header-text p {
+  font-size: 16px;
+  color: #666; /* Slightly lighter color for description */
+}
+
+/* Style for header section */
+.header-2 {
+  background-color: #484848; /* White background */
+  padding: 10px 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for header content */
+.header-2 .header-content {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.header-2 .header-content img {
+  width: 60px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 50%; /* Make the image round */
+}
+
+/* Style for navigation */
+.header-2 .navi {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align to the left */
+  margin-top: -50px;
+  ;
+}
+
+.header-2 .navi a {
+  color: #f3f4ff; /* Dark text color */
+  text-decoration: none;
+  font-family: 'Race Font';
+  margin: 0px 7px;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  text-shadow: 0px 2px 3px  #ffffff;
+}
+/* Static Header 3 */
+.header-text3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10vw;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-3 .header-content .img {
+  width: 60px;
+  height: auto;
+}
+
+.section-3 .navi {
+  display: flex;
+  gap: 15px;
+}
+
+.section-3 .navi a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: 'Brigade Font';
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.section-3 .navi a:last-child {
+  background-color: #ffffff;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+/* Static Header 4 */
+.header-text4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+.header-text4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-shadow: 2px 2px #f3f4ff;
+    margin-bottom: 5px;
+  }
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10vw;
+  background-color: #080b6b;
+  border-radius: 8px;
+  box-shadow: 7px 7px  rgba(0, 0, 0, 0.1);
+}
+
+.section-4 .header-content .img {
+  width: 70px;
+  height: auto;
+}
+
+.section-4 .navi {
+  display: flex;
+  gap: 15px;
+}
+
+.section-4 .navi a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: 'Super Font';
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.section-4 .navi a:last-child {
+  background-color: #ffffff;
+  color: #0073e6;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+/* HEADER 5 */
+.header-text5 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+.header.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 10px ;
+  width: 150px;
+  height: 700px;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+}
+
+.header.section-5 .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.header.section-5 .img {
+  width: 100px;
+  height: auto;
+  display: flex;
+}
+
+.header.section-5 .navi {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header.section-5 .navi a {
+  font-size: 14px;
+  font-family: ;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Brigade font';
+}
+
+.header.section-5 .navi a:last-child {
+  border: 2px solid rgb(60, 54, 110);
+  padding: px 15px;
+  border-radius: 5px;
+}
+/* HEADER 6 */
+.header-text6 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+.header-6 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background-color: #daed00;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.header-6:hover {
+  background-color: #cbe100; /* Darken the background color on hover */
+}
+
+.header-6 .header-content .logoA {
+  width: 80px;
+  height: auto;
+}
+
+.header-6 .naviA a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions for background color and text color */
+  font-family: 'Line Font';
+  font-size: 9px;
+}
+
+.header-6 .naviA a:hover {
+  background-color: #53599e; /* Lighten the background color on hover */
+  color: #daed00; /* Change text color on hover */
+}
+
+.header-text h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.header-text p {
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+/* HEADER 7*/
+.header-text7 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+/* Style for header section */
+.header-7 {
+  background-color: #484848; /* Dark background */
+  padding: 10px 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for header content */
+.header-7 .header-content {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.header-7 .header-content img {
+  width: 60px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 50%; /* Make the image round */
+}
+
+/* Style for navigation */
+.header-7 .naviB {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align to the left */
+  margin-top: -50px;
+}
+
+.header-7 .naviB a {
+  color: #f3f4ff; /* Dark text color */
+  text-decoration: none;
+  font-family: 'Race Font';
+  margin: 0px 7px;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  text-shadow: 0px 2px 3px #ffffff;
+  position: relative; /* Ensure the rotation animation works properly */
+}
+
+.header-7 .naviB a:hover {
+  color: #daed00; /* Change text color on hover */
+  animation: rotateButton 0.5s linear forwards; /* Apply the rotation animation on hover */
+}
+
+@keyframes rotateButton {
+  100% {
+    transform: rotate(360deg); /* Rotate the button 360 degrees */
+  }
+}
+/* header 8 */
+.header-text8 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+/* Style for the header section */
+.section-8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10vw;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-8 .header-content .img {
+  width: 60px;
+  height: auto;
+  filter: brightness(1); /* Initial state for logo */
+  transition: filter 0.3s ease; /* Smooth transition for filter changes */
+}
+
+.section-8 .header-content .img:hover {
+  filter: brightness(1.5); /* Brighten the logo on hover */
+}
+
+/* Style for navigation */
+.section-8 .naviC {
+  display: flex;
+  gap: 15px;
+}
+
+.section-8 .naviC a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: 'Brigade Font';
+  font-size: 14px;
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.section-8 .naviC a:last-child {
+  background-color: #ffffff;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions for background color and text color */
+}
+
+.section-8 .naviC a:last-child:hover {
+  background-color: #ff0000; /* Change background color on hover */
+  color: #ffffff; /* Change text color on hover */
+  animation: shakeButton 0.5s ease-in-out; /* Apply the shake animation on hover */
+}
+
+@keyframes shakeButton {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+/* Header 9 */
+/* Header Text */
+.header-text9 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+/* Style for the header section */
+.section-9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10vw;
+  background-color: #080b6b;
+  border-radius: 8px;
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure content overflow is hidden */
+}
+
+.section-9 .header-content .img {
+  width: 70px;
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.section-9 .header-content .img:hover {
+  transform: scale(1.1); /* Scale up the logo on hover */
+}
+
+/* Style for navigation */
+.section-9 .naviD {
+  display: flex;
+  gap: 15px;
+}
+
+.section-9 .naviD a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-family: 'Super Font';
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.section-9 .naviD a:hover {
+  transform: translateY(-3px); /* Move the button up on hover */
+}
+
+.section-9 .naviD a:last-child {
+  background-color: #ffffff;
+  color: #0073e6;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* Text Animation */
+.section-9 .header-text9 {
+  animation: slideInText 1s ease forwards;
+}
+
+@keyframes slideInText {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* HEADER 10 */
+/* Header Text */
+.header-text10 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-shadow: 2px 2px #f3f4ff;
+  margin-bottom: 5px;
+}
+
+/* Style for the header section */
+.header.section-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 150px;
+  height: 700px;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  overflow: hidden; /* Ensure content overflow is hidden */
+}
+
+.header.section-10 .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.header.section-10 .img {
+  width: 100px;
+  height: auto;
+  display: flex;
+  animation: glowLogo 2s infinite alternate; /* Apply glow animation to logo */
+}
+
+@keyframes glowLogo {
+  0% {
+    filter: drop-shadow(0 0 5px #fff); /* Initial shadow effect */
+  }
+  100% {
+    filter: drop-shadow(0 0 15px #00ffff); /* Glow effect */
+  }
+}
+
+.header.section-10 .naviE {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header.section-10 .naviE a {
+  font-size: 14px;
+  font-family: 'Brigade font';
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure text overflow is hidden */
+  position: relative; /* Ensure position is relative for pseudo-element */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transitions */
+}
+
+.header.section-10 .naviE a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #575757; /* Glow color */
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  transition: left 0.3s ease-in-out; /* Smooth transition for left position */
+}
+
+.header.section-10 .naviE a:hover::before {
+  left: 0; /* Move pseudo-element to the right to reveal text with glow effect */
+}
+
+.header.section-10 .naviE a:hover {
+  transform: translateX(10px); /* Move button slightly to the right on hover */
+  opacity: 0.8; /* Reduce opacity slightly on hover */
+}
+
+/* Typing Animation */
+.header.section-10 .naviE a.typing-animation::before {
+  animation: typing 2s steps(10, end); /* Typing animation effect */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+
+
+
+
