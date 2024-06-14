@@ -55,18 +55,18 @@ body {
   font-size: 20px;
   color: #ffffff;
   padding: 20px;
-  margin-bottom: 20px; /* Space between description and buttons */
+  margin-bottom: 20px; 
   max-width: 1000px;
-  background-color: rgba(0, 0, 0, 0.6); /* Dark transparent background */
-  border-radius: 10px; /* Rounded corners for better aesthetics */
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 10px; 
 }
 
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px; /* Space between buttons */
-  flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
+  gap: 100px; 
+  flex-wrap: wrap; 
 }
 
 .button {
@@ -110,7 +110,7 @@ body {
   border-radius: 5px;
 }
 
-/* Responsive styles */
+
 @media screen and (max-width: 768px) {
   .main-logo {
     width: 60px;
@@ -151,11 +151,10 @@ body {
   }
 }
 
-/* Updated logo-container */
 .logo-container {
   position: fixed;
-  top: 20px; /* Changed from bottom to top */
-  right: 10px; /* Keeping it on the right */
+  top: 20px; 
+  right: 10px; 
 }
 
 .wheels-logo {
@@ -172,12 +171,12 @@ body {
 }
 
 .sub-logo1 {
-  top: 60px; /* Changed from bottom to top */
+  top: 60px; 
   right: 0;
 }
 
 .sub-logo2 {
-  top: 100px; /* Changed from bottom to top */
+  top: 100px; 
   right: 0;
 }
 
