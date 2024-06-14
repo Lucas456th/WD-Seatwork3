@@ -60,12 +60,12 @@ body {
 
 .home{
     font-family: 'Super Font';
-    text-shadow: 4px 4px #000000;
+    text-shadow: 4px 4px 4px #fff2f2;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: #2200ff;
+    color: #002aff;
 }
 .home-link {
     display: flex;
