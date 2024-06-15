@@ -112,4 +112,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Footer Design | got some referenc3e from this website. a basic header designs. | https://www.w3schools.com/howto/howto_css_style_header.asp |
+| Footer and header Design  | got some reference from this website. a basic header designs. | https://www.w3schools.com/howto/howto_css_style_header.asp |
+| CSS Footer Designs | I used this as a reference CSS designs and Template  | https://youtu.be/IHYFdlT_1lM?si=BnFRAOPAwqoNdM1N |
+| Footer and header Design  | I used this a  reference template in making a footer. | https://dorik.com/blog/website-footer-examples |
