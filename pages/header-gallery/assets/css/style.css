@@ -86,7 +86,6 @@ body {
 .header-text1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000000;
-  text-shadow: 2px 2px #f3f4ff;
   margin-bottom: 5px;
 }
 
@@ -128,9 +127,8 @@ body {
 
 
 .header-text2 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: ;
   color: #000000;
-  text-shadow: 2px 2px #f3f4ff;
   margin-bottom: 5px;
 }
 .header-text h2 {
@@ -189,7 +187,6 @@ body {
 .header-text3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000000;
-  text-shadow: 2px 2px #f3f4ff;
   margin-bottom: 5px;
 }
 
@@ -200,7 +197,7 @@ body {
   padding: 1rem 10vw;
   background-color: #000000;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .section-3 .header-content .img {
@@ -234,58 +231,92 @@ body {
   transition: background-color 0.3s ease;
 }
 /* Static Header 4 */
-.header-text4 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #000000;
-  text-shadow: 2px 2px #f3f4ff;
-  margin-bottom: 5px;
-}
-.header-text4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000000;
-    text-shadow: 2px 2px #f3f4ff;
-    margin-bottom: 5px;
+
+
+
+  header {
+    background: url('../img/Audi.jpg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 0 0 85% 85% / 30%;
   }
+  header .overlay{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #ffffff;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    
+  }
+  
+  h1 {
+    font-family: 'Brigade Font', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(2, 187, 243);
+  }
+  
+  h3, p {
+    font-family: 'Brigade Font';
+    font-weight: 900px;
+    margin-bottom: 3px;
+    color: #ffffff;
+  }
+  
+  button {
+    font-family: 'Brigade Font';
+    font-weight: ;
+    border: 1px 3px;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #00c3ff;
+    background: #353535;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+  }
+  .section-4 .navi a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: 'Brigade Font';
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  /* Button and Navigation Styles */
 
-.section-4 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 10vw;
-  background-color: #080b6b;
-  border-radius: 8px;
-  box-shadow: 7px 7px  rgba(0, 0, 0, 0.1);
+.read-more-btn {
+  font-family: 'Brigade Font';
+  font-weig;
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: #f50000;
+  background-color: #ffffff;
 }
 
-.section-4 .header-content .img {
-  width: 70px;
-  height: auto;
+.read-more-btn:hover {
+  background-color: #008bb0;
 }
 
-.section-4 .navi {
-  display: flex;
-  gap: 15px;
+.navi {
+  margin-top: 20px;
 }
 
-.section-4 .navi a {
+.navi a {
+  font-family: 'Line Font';
   text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-family: 'Super Font';
-  font-size: 14px;
-  background-color: #ffffff;
-  color: #ff0000;
-  font-weight: bold;
+  color: #00c3ff;
+  text-shadow: 2px 3px #000000;
   padding: 8px 16px;
-  border-radius: 5px;
-}
-
-.section-4 .navi a:last-child {
-  background-color: #ffffff;
-  color: #0073e6;
-  font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 5px;
+  margin-right: 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
 }
 
 .header-text5 {
