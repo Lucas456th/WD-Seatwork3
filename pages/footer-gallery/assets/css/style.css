@@ -1,0 +1,810 @@
+/* General Styles */
+
+@font-face {
+  font-family: 'Super Font';
+  src: url(../font/super-font.ttf);
+}
+
+@font-face {
+  font-family: 'Brigade Font';
+  src: url(../font/brigade-font.ttf);
+}
+
+@font-face {
+  font-family: 'Race Font';
+  src: url(../font/race-font.ttf);
+}
+
+@font-face {
+  font-family: 'Line Font';
+  src: url(../font/line-font.ttf);
+}
+
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.home-logo {
+  width: 60px; 
+  height: auto;
+  display: block;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #5f9ea0;
+}
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: #5f9ea0;
+}
+.footer-social a {
+  font-size: 18px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+.footer-social a:hover {
+  color: #5f9ea0;
+}
+
+/* Footer 1 */
+.footer-1 {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Add space below this footer */
+  font-family: 'Race Font';
+}
+.footer-1 .footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-1 .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-1 .footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer-1 .footer-social {
+  display: flex;
+  margin-top: 10px;
+}
+ /* Styles for Footer 1 */
+ .footer-1 {
+  background: url("../img/old-paper.jpg") no-repeat center center ; 
+  background-size: cover;
+  color: #000000;
+  padding: 20px;
+  width: 100%;
+}
+.footer-1 .links, .footer-1 .social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+.footer-1 a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+/* Footer 2 */
+.footer-2 {
+  font-family: 'Race Font';
+  background: url("../img/dna.png") no-repeat center center ; 
+  background-size: cover;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-2 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-2 .footer-left {
+  text-align: left;
+}
+
+.footer-2 .footer-left h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-2 .footer-right {
+  text-align: right;
+}
+
+.footer-2 .socials,
+.footer-2 .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-2 .socials li,
+.footer-2 .links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-2 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-2 a:hover {
+  color: #5f9ea0;
+}
+
+.footer-2 p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-2 .footer-content {
+    text-align: center;
+  }
+
+  .footer-2 .footer-left,
+  .footer-2 .footer-right {
+    text-align: center;
+    margin-bottom: 2px;
+  }
+}
+
+
+/* Footer 3 */
+.footer-3 {
+  background: url("../img/supra.jpg") no-repeat center center ; 
+  background-size: cover;
+  color: #000000;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Add space below this footer */
+  font-family: 'Super Font';
+  text-shadow: 2px 2px 2px #000000;
+}
+.footer-3 .footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-3 .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-3 .footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer-3 .footer-social {
+  display: flex;
+  margin-top: 10px;
+}
+/* Styles for Footer 3 */
+.footer-3 {
+  background-color: #f4f4f4;
+  color: #3300ff;
+  text-shadow: 3px 3px 8px black;
+  padding: 20px;
+  width: 100%;
+}
+.footer-3 .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-3 .footer-content {
+  flex: 1;
+  padding: 0 20px;
+}
+.footer-3 .footer-links, .footer-3 .social-media {
+  list-style: none;
+  padding: 0;
+}
+.footer-3 .footer-links li, .footer-3 .social-media li {
+  margin-bottom: 10px;
+}
+.footer-3 a {
+  text-decoration: none;
+  color: #ff0000;
+  transition: color 0.3s ease;
+}
+
+.footer-3 .footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff0000;
+  border-radius: 8px;
+}
+/* Footer 4 */
+.footer-4 {
+  background: url("../img/black_drift.jpg") no-repeat center center ; 
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Add space below this footer */
+  font-family: 'Super Font';
+  text-shadow: 2px 6px 8px #000000;
+}
+.footer-4 .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-4 .footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer-4 .footer-social {
+  display: flex;
+  margin-top: 10px;
+}
+   /* Styles for Footer 4 */
+   .footer-4 {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 70px 0;
+    width: 100%;
+}
+.footer-4 .container {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-4 .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-4 .footer-col {
+    width: 25%;
+    padding: 15px;
+}
+.footer-4 .footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+.footer-4 .footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-4 .footer-col ul li {
+    margin-bottom: 10px;
+}
+.footer-4 .footer-col a {
+    text-decoration: none;
+    color: #ff0000;
+    transition: color 0.3s ease;
+}
+/* styles.css */
+
+/* Styles for footer 5 */
+.footer-5 {
+  position: relative; /* Ensure relative positioning for absolute positioning within */
+  padding-bottom: 40px; /* Space for 'All rights reserved' text */
+}
+
+/* Square container styles */
+.square-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 300px;
+  background-color: #007bff;
+  border-radius: 8px;
+  z-index: -1; /* Place behind other content */
+}
+
+/* Styles for form container */
+.form-container5 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #838383;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure relative positioning for child elements */
+  z-index: 1; /* Ensure above square container */
+}
+
+/* Styles for form title */
+.title5 {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Styles for form description */
+.form5 p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Styles for email input */
+.email-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+/* Styles for submit button */
+.submit-button5 {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for privacy text */
+.privacy-text5 {
+  text-align: center;
+  font-size: 14px;
+  color: #eaf9ff;
+}
+
+/* Styles for 'All rights reserved' text */
+.all-rights-reserved {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  color: #000000;
+}
+/* Footer 6 */
+.footer-6 {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Add space below this footer */
+  font-family: 'Race Font';
+}
+.footer-6 .footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-6 .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-6 .footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer-6 .footer-social {
+  display: flex;
+  margin-top: 10px;
+}
+ /* Styles for Footer 6 */
+ .footer-6 {
+  background: url("../img/old-paper.jpg") no-repeat center center ; 
+  background-size: cover;
+  color: #000000;
+  padding: 20px;
+  width: 100%;
+}
+.footer-6 .links, .footer-6 .social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+.footer-6 a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+.footer-6 a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+/* Hover animation */
+.footer-6 a:hover {
+  color: #ffffff; /* Example color change on hover */
+}
+
+
+/* Footer 7 */
+.footer-7 {
+  font-family: 'Race Font';
+  background: url("../img/dna.png") no-repeat center center ; 
+  background-size: cover;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-7 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-7 .footer-left {
+  text-align: left;
+}
+
+.footer-7 .footer-left h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-7 .footer-right7 {
+  text-align: right;
+}
+
+.footer-7 .socials,
+.footer-7 .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-7 .socials7 li,
+.footer-7 .links7 li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-7 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-7 a:hover {
+  color: #5f9ea0;
+}
+
+.footer-7 p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-7 .footer-content {
+    text-align: center;
+  }
+
+  .footer-7 .footer-left7,
+  .footer-7 .footer-right7 {
+    text-align: center;
+    margin-bottom: 2px;
+  }
+}
+.footer-7 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+/* Hover animation */
+.footer-7 a:hover {
+  color: #5f9ea0; /* Example color change on hover */
+}
+
+/* Footer 8 */
+.footer-8 {
+  background: url("../img/supra.jpg") no-repeat center center ; 
+  background-size: cover;
+  color: #000000;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Add space below this footer */
+  font-family: 'Super Font';
+  text-shadow: 2px 2px 2px #000000;
+}
+.footer-8 .footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-8 .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-8 .footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer-8 .footer-social {
+  display: flex;
+  margin-top: 10px;
+}
+/* Styles for Footer 8 */
+.footer-8 {
+  background-color: #f4f4f4;
+  color: #3300ff;
+  text-shadow: 3px 3px 8px black;
+  padding: 20px;
+  width: 100%;
+}
+.footer-8 .footer-container8 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-8 .footer-content8 {
+  flex: 1;
+  padding: 0 20px;
+}
+.footer-8 .footer-links8, .footer-8 .social-media8 {
+  list-style: none;
+  padding: 0;
+}
+.footer-8 .footer-links8 li, .footer-8 .social-media8 li {
+  margin-bottom: 10px;
+}
+.footer-8 a {
+  text-decoration: none;
+  color: #ff0000;
+  transition: color 0.3s ease;
+}
+
+.footer-8 .footer-bottom8 {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff0000;
+  border-radius: 8px;
+}
+.footer-8 a {
+  text-decoration: none;
+  color: #ff0000;
+  transition: color 0.3s ease;
+}
+
+/* Hover animation */
+.footer-8 a:hover {
+  color: #3300ff; /* Example color change on hover */
+}
+/* Animation for Footer 8 */
+.footer-8 .footer-links8 li,
+.footer-8 .social-media8 li {
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-8 .footer-links8 li:hover,
+.footer-8 .social-media8 li:hover {
+  transform: scale(1.1); /* Example scale animation on hover */
+}
+
+/* Footer 9 */
+.footer-9 {
+  background: url("../img/black_drift.jpg") no-repeat center center ; 
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px; /* Add space below this footer */
+  font-family: 'Super Font';
+  text-shadow: 2px 6px 8px #000000;
+}
+.footer-9 .footer-logo9 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer-9 .footer-links9 {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer-9 .footer-social9 {
+  display: flex;
+  margin-top: 10px;
+}
+   /* Styles for Footer 9 */
+   .footer-9 {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 70px 0;
+    width: 100%;
+}
+.footer-9 .container9 {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-9 .row9 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-9 .footer-col9 {
+    width: 25%;
+    padding: 15px;
+}
+.footer-9 .footer-col9 h4 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+.footer-9 .footer-col9 ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-9 .footer-col9 ul li {
+    margin-bottom: 10px;
+}
+.footer-9 .footer-col9 a {
+    text-decoration: none;
+    color: #ff0000;
+    transition: color 0.3s ease;
+}
+/* Animation for Footer 9 */
+.footer-9 .footer-col9 a {
+  text-decoration:dashed;
+  color: #ff0000;
+  transition: transform 0.3s ease;
+}
+
+.footer-9 .footer-col9 a:hover {
+  transform: rotate(360deg); /* Example rotation animation on hover */
+}
+
+
+/* Footer 10 */
+.footer-10 {
+  position: relative; /* Ensure relative positioning for absolute positioning within */
+  padding-bottom: 40px; /* Space for 'All rights reserved' text */
+}
+
+/* Square container styles */
+.square-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 300px;
+  background-color: #007bff;
+  border-radius: 8px;
+  z-index: -1; /* Place behind other content */
+}
+
+/* Styles for form container */
+.form-container10 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #838383;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure relative positioning for child elements */
+  z-index: 1; /* Ensure above square container */
+}
+
+/* Styles for form title */
+.title10 {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Styles for form description */
+.form10 p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Styles for email input */
+.email-input10 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+/* Styles for submit button */
+.submit-button10 {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for privacy text */
+.privacy-text10 {
+  text-align: center;
+  font-size: 14px;
+  color: #eaf9ff;
+}
+
+/* Styles for 'All rights reserved' text */
+.all-rights-reserved10 {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  color: #000000;
+}

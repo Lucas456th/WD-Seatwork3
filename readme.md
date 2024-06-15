@@ -112,4 +112,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Footer Design | got some referenc3e from this website. a basic header designs. | https://www.w3schools.com/howto/howto_css_style_header.asp |
